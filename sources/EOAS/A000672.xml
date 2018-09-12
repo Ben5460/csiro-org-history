@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="shared/cpf.rng" type="xml"?>
+<eac-cpf xmlns="urn:isbn:1-931666-33-4" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:isbn:1-931666-33-4 http://eac.staatsbibliothek-berlin.de/schema/cpf.xsd">
+<control>
+<recordId>A000672</recordId>
+<maintenanceStatus>revised</maintenanceStatus>
+<maintenanceAgency>
+<agencyCode>AU-VU:EOAS</agencyCode>
+<agencyName>Encyclopedia of Australian Science</agencyName>
+<descriptiveNote>
+<p>Encyclopedia of Australian Science is a biographical, bibliographical and archival database of Australian scientists and scientific organisations with links to related articles and images. It includes scientists who were Australian by birth as well as those who undertook significant scientific work here.</p>
+</descriptiveNote>
+</maintenanceAgency>
+<languageDeclaration>
+<language languageCode="eng">English</language>
+<script scriptCode="Latn">Latin</script>
+</languageDeclaration>
+<conventionDeclaration>
+<abbreviation>AACR2</abbreviation>
+<citation>Anglo-American Cataloguing Rules</citation>
+</conventionDeclaration>
+<localControl localType="typeOfEntity">
+<term>Corporate Body</term>
+</localControl>
+<maintenanceHistory>
+<maintenanceEvent>
+<eventType>created</eventType>
+<eventDateTime standardDateTime="2000-07-06">2000-07-06</eventDateTime>
+<agentType>human</agentType>
+<agent>Ailie Smith</agent>
+<eventDescription></eventDescription>
+</maintenanceEvent>
+<maintenanceEvent>
+<eventType>updated</eventType>
+<eventDateTime standardDateTime="2015-07-29">2015-07-29</eventDateTime>
+<agentType>human</agentType>
+<agent></agent>
+<eventDescription></eventDescription>
+</maintenanceEvent>
+</maintenanceHistory>
+</control>
+<cpfDescription>
+<identity><entityId>http://www.eoas.info/biogs/A000672b.htm</entityId>
+<entityId localType="Agency of the Commonwealth of Australia">CA 4460</entityId>
+<entityType>corporateBody</entityType>
+<nameEntry><part>CSIRO Division of Soils</part>
+<part localType="parent">Commonwealth Scientific and Industrial Research Organisation</part>
+<authorizedForm>AACR2</authorizedForm>
+</nameEntry>
+</identity>
+<description><existDates>
+<dateRange>
+<fromDate standardDate="1929-08-01">1 August 1929</fromDate>
+<toDate standardDate="1997-12-31">1997</toDate>
+</dateRange>
+</existDates>
+<places>
+<place>
+<placeRole>Start Place</placeRole>
+<placeEntry>Black Mountain, Australian Capital Territory, Australia</placeEntry>
+</place>
+<place>
+<placeRole>Location</placeRole>
+<placeEntry>Black Mountain, Australian Capital Territory</placeEntry>
+</place>
+</places>
+<functions>
+<function>
+<term>Industrial or Scientific Research</term>
+</function>
+<function>
+<term>Earth Sciences</term>
+</function>
+</functions>
+<biogHist>
+<abstract>The Division of Soils was established in 1929, taking the place of the Murray River Soil Investigation Unit. The Division survived the change from the Counsel of Scientific and Industrial Research (CSIR) to the Commonwealth Scientific and Industrial Research Organisation (CSIRO). In 1997, the Division of Soils amalgamated with the Divisions of Water Resources and Environmental Mechanics, to form the Division of Land and Water.</abstract>
+
+</biogHist>
+</description>
+<relations><cpfRelation cpfRelationType="hierarchical-parent" xlink:type="simple" xlink:href="http://www.eoas.info/biogs/A000196b.htm">
+<relationEntry localType="Corporate Body">
+Commonwealth Scientific and Industrial Research Organisation (CSIRO), Commonwealth of Australia (1949 - )
+</relationEntry>
+</cpfRelation>
+<cpfRelation cpfRelationType="associative" xlink:type="simple" xlink:href="http://www.eoas.info/biogs/A001949b.htm">
+<relationEntry localType="Corporate Body">
+CRC for the Sustainable Development of Tropical Savannas (1995 - 2001)
+</relationEntry>
+</cpfRelation>
+<cpfRelation cpfRelationType="temporal-earlier" xlink:type="simple" xlink:href="http://www.eoas.info/biogs/A000674b.htm">
+<relationEntry localType="Corporate Body">
+CSIR Murray River Soil Investigation Unit, Council for Scientific and Industrial Research (1927 - 1929)
+</relationEntry>
+</cpfRelation>
+<cpfRelation cpfRelationType="associative" xlink:type="simple" xlink:href="http://www.eoas.info/biogs/P005097b.htm">
+<relationEntry localType="Person">
+Rovira, Albert
+</relationEntry>
+</cpfRelation>
+<cpfRelation cpfRelationType="associative" xlink:type="simple" xlink:href="http://www.eoas.info/biogs/P000372b.htm">
+<relationEntry localType="Person">
+Downes, Ronald Geoffrey (1916 - 1985)
+</relationEntry>
+<dateRange>
+<fromDate standardDate="1939-01-01">1939</fromDate>
+<toDate standardDate="1950-12-31">1950</toDate>
+</dateRange>
+<descriptiveNote>
+<p>Scientist, various ranks, at the CSIRO Division of Soils</p>
+</descriptiveNote>
+</cpfRelation>
+<cpfRelation cpfRelationType="associative" xlink:type="simple" xlink:href="http://www.eoas.info/biogs/P003862b.htm">
+<relationEntry localType="Person">
+Piper, Clarence Sherwood (1903 - 1988)
+</relationEntry>
+<dateRange>
+<fromDate standardDate="1944-01-01">1944</fromDate>
+<toDate standardDate="1963-12-31">1963</toDate>
+</dateRange>
+<descriptiveNote>
+<p>Officer-in-Charge, Soil Chemistry Section, CSIRO Division of Soils</p>
+</descriptiveNote>
+</cpfRelation>
+<cpfRelation cpfRelationType="associative" xlink:type="simple" xlink:href="http://www.eoas.info/biogs/P003971b.htm">
+<relationEntry localType="Person">
+Stewart, George Alan (Alan) (1922 - )
+</relationEntry>
+<dateRange>
+<fromDate standardDate="1944-01-01">1944</fromDate>
+<toDate standardDate="1951-12-31">1951</toDate>
+</dateRange>
+<descriptiveNote>
+<p>Soil surveyor at the CSIRO Division of Soils</p>
+</descriptiveNote>
+</cpfRelation>
+<cpfRelation cpfRelationType="associative" xlink:type="simple" xlink:href="http://www.eoas.info/biogs/P000727b.htm">
+<relationEntry localType="Person">
+Quirk, James Patrick (1924 - )
+</relationEntry>
+<dateRange>
+<fromDate standardDate="1947-01-01">1947</fromDate>
+<toDate standardDate="1956-12-31">1956</toDate>
+</dateRange>
+<descriptiveNote>
+<p>Senior Research Officer of the Division of Soils, CSIRO</p>
+</descriptiveNote>
+</cpfRelation>
+<cpfRelation cpfRelationType="associative" xlink:type="simple" xlink:href="http://www.eoas.info/biogs/P004654b.htm">
+<relationEntry localType="Person">
+Hunter, Robert John (1933 - )
+</relationEntry>
+<dateRange>
+<fromDate standardDate="1960-01-01">1960</fromDate>
+<toDate standardDate="1964-12-31">1964</toDate>
+</dateRange>
+<descriptiveNote>
+<p>Experimental Officer then Research Officer at CSIRO Division of Soils</p>
+</descriptiveNote>
+</cpfRelation>
+<cpfRelation cpfRelationType="associative" xlink:type="simple" xlink:href="http://www.eoas.info/biogs/P003882b.htm">
+<relationEntry localType="Person">
+Raupach, Michael (1950 - 2015)
+</relationEntry>
+<dateRange>
+<fromDate standardDate="1969-01-01">1969</fromDate>
+<toDate standardDate="1987-12-31">1987</toDate>
+</dateRange>
+<descriptiveNote>
+<p>Worked at Division of Soils, CSIRO Adelaide</p>
+</descriptiveNote>
+</cpfRelation>
+<cpfRelation cpfRelationType="hierarchical-child" xlink:type="simple" xlink:href="http://www.eoas.info/biogs/A000790b.htm">
+<relationEntry localType="Corporate Body">
+CSIRO Soil Physics and Mechanics Section, Commonwealth Scientific and Industrial Research Organisation (c. 1943 - 1955)
+</relationEntry>
+</cpfRelation>
+<cpfRelation cpfRelationType="hierarchical-child" xlink:type="simple" xlink:href="http://www.eoas.info/biogs/A000791b.htm">
+<relationEntry localType="Corporate Body">
+CSIR Soil Physics Section, Council for Scientific and Industrial Research (c. 1933 - c. 1943)
+</relationEntry>
+</cpfRelation>
+<cpfRelation cpfRelationType="hierarchical-child" xlink:type="simple" xlink:href="http://www.eoas.info/biogs/A000789b.htm">
+<relationEntry localType="Corporate Body">
+CSIRO Soil Mechanics Section, Commonwealth Scientific and Industrial Research Organisation (1955 - 1967)
+</relationEntry>
+<dateRange>
+<fromDate standardDate="1955-01-01">1955</fromDate>
+<toDate standardDate="1958-12-31">1958</toDate>
+</dateRange>
+</cpfRelation>
+<cpfRelation cpfRelationType="temporal-later" xlink:type="simple" xlink:href="http://www.eoas.info/biogs/A000675b.htm">
+<relationEntry localType="Corporate Body">
+CSIRO Division of Land Resources Management, Commonwealth Scientific and Industrial Research Organisation (1973 - 1982)
+</relationEntry>
+</cpfRelation>
+<cpfRelation cpfRelationType="temporal-later" xlink:type="simple" xlink:href="http://www.eoas.info/biogs/A000670b.htm">
+<relationEntry localType="Corporate Body">
+CSIRO Land and Water, Commonwealth Scientific and Industrial Research Organisation (1997 - )
+</relationEntry>
+</cpfRelation>
+<cpfRelation cpfRelationType="hierarchical-parent" xlink:type="simple" xlink:href="http://www.eoas.info/biogs/A000636b.htm">
+<relationEntry localType="Corporate Body">
+Institute of Plant Production and Processing - CSIRO, Commonwealth Scientific and Industrial Research Organisation (1988 - c. 1995)
+</relationEntry>
+</cpfRelation>
+<cpfRelation cpfRelationType="hierarchical-parent" xlink:type="simple" xlink:href="http://www.eoas.info/biogs/A000634b.htm">
+<relationEntry localType="Corporate Body">
+Institute of Biological Resources - CSIRO, Commonwealth Scientific and Industrial Research Organisation (? - 1986)
+</relationEntry>
+</cpfRelation>
+<cpfRelation cpfRelationType="identity" xlink:type="simple" xlink:href="http://nla.gov.au/nla.party-458254">
+<relationEntry></relationEntry>
+<descriptiveNote><p>Trove</p>
+</descriptiveNote>
+</cpfRelation>
+<resourceRelation resourceRelationType="subjectOf">
+<relationEntry localType="published">'CSIRO Division of Soils', in <span style="font-style:italic">Encyclopedia of Australian Science</span>, The University of Melbourne eScholarship Research Centre</relationEntry>
+
+<objectXMLWrap>
+<bibref xmlns="urn:isbn:1-931666-22-9">
+<title render="italic">CSIRO Division of Soils</title>
+<imprint>
+<publisher>The University of Melbourne eScholarship Research Centre</publisher>
+</imprint>
+<bibseries>
+<title render="italic">Encyclopedia of Australian Science</title>
+</bibseries>
+<extptr linktype="simple" href="http://www.eoas.info/biogs/A000672b.htm"></extptr>
+</bibref>
+</objectXMLWrap>
+</resourceRelation>
+<resourceRelation resourceRelationType="other" xlink:type="simple" xlink:href="http://www.eoas.info/bib/ASBS00939.htm">
+<relationEntry localType="published">Book: Historical Directory of Council for Scientific and Industrial Research and Commonwealth Scientific and Industrial Research Organization, 1926-1976</relationEntry>
+
+<objectXMLWrap>
+<bibref xmlns="urn:isbn:1-931666-22-9">
+<name type="author"></name>
+<title render="italic">Historical Directory of Council for Scientific and Industrial Research and Commonwealth Scientific and Industrial Research Organization, 1926-1976</title>
+<imprint>
+<place>Canberra</place>
+<publisher>CSIRO</publisher>
+<date>1978</date>
+</imprint>
+</bibref>
+</objectXMLWrap>
+
+</resourceRelation>
+<resourceRelation resourceRelationType="other" xlink:type="simple" xlink:href="http://www.eoas.info/bib/ASBS00045.htm">
+<relationEntry localType="published">Resource Section: Primary description of agency CA 4460; CSIR/ (from 1949) CSIRO, Division of Soils, Canberra. Registration of entity: 8 February 1988</relationEntry>
+
+<objectXMLWrap>
+<bibref xmlns="urn:isbn:1-931666-22-9">
+<name type="author"></name>
+<title render="quoted">Primary description of agency CA 4460; CSIR/ (from 1949) CSIRO, Division of Soils, Canberra. Registration of entity: 8 February 1988</title>
+<imprint>
+<publisher>National Archives of Australia</publisher>
+<date>2000</date>
+</imprint>
+<bibseries>
+<title render="italic">RecordSearch</title>
+</bibseries>
+<extptr linktype="simple" href="http://naa12.naa.gov.au/scripts/SearchOld.asp?Number=CA+4460"></extptr>
+</bibref>
+</objectXMLWrap>
+
+</resourceRelation>
+</relations>
+</cpfDescription>
+</eac-cpf>

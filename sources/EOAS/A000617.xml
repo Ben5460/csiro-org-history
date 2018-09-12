@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/
+ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+
+<responseDate>2016-08-22T02:20:04Z</responseDate>
+
+<request verb="GetRecord" identifier="oai:eoas.oai.esrc.unimelb.edu.au:A000617" metadataPrefix="eac-cpf">http://oai.esrc.unimelb.edu.au/EOAS/provider</request>
+
+
+
+<GetRecord>
+
+  <record>
+
+  
+
+    <header>
+
+      <identifier>oai:eoas.oai.esrc.unimelb.edu.au:A000617</identifier>
+
+      <datestamp>2015-09-17T02:29:35Z</datestamp>
+
+      	
+
+    </header>
+
+	
+
+    <metadata>
+
+	<?oxygen RNGSchema="shared/cpf.rng" type="xml"?>
+<eac-cpf xmlns="urn:isbn:1-931666-33-4" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:isbn:1-931666-33-4 http://eac.staatsbibliothek-berlin.de/schema/cpf.xsd">
+<control>
+<recordId>A000617</recordId>
+<maintenanceStatus>revised</maintenanceStatus>
+<maintenanceAgency>
+<agencyCode>AU-VU:EOAS</agencyCode>
+<agencyName>Encyclopedia of Australian Science</agencyName>
+<descriptiveNote>
+<p>Encyclopedia of Australian Science is a biographical, bibliographical and archival database of Australian scientists and scientific organisations with links to related articles and images. It includes scientists who were Australian by birth as well as those who undertook significant scientific work here.</p>
+</descriptiveNote>
+</maintenanceAgency>
+<languageDeclaration>
+<language languageCode="eng">English</language>
+<script scriptCode="Latn">Latin</script>
+</languageDeclaration>
+<conventionDeclaration>
+<abbreviation>AACR2</abbreviation>
+<citation>Anglo-American Cataloguing Rules</citation>
+</conventionDeclaration>
+<localControl localType="typeOfEntity">
+<term>Corporate Body</term>
+</localControl>
+<maintenanceHistory>
+<maintenanceEvent>
+<eventType>created</eventType>
+<eventDateTime standardDateTime="2000-06-22">2000-06-22</eventDateTime>
+<agentType>human</agentType>
+<agent>Ailie Smith</agent>
+<eventDescription></eventDescription>
+</maintenanceEvent>
+<maintenanceEvent>
+<eventType>updated</eventType>
+<eventDateTime standardDateTime="2012-10-03">2012-10-03</eventDateTime>
+<agentType>human</agentType>
+<agent></agent>
+<eventDescription></eventDescription>
+</maintenanceEvent>
+</maintenanceHistory>
+</control>
+<cpfDescription>
+<identity><entityId>http://www.eoas.info/biogs/A000617b.htm</entityId>
+<entityId localType="Agency of the Commonwealth of Australia">CA 4368</entityId>
+<entityType>corporateBody</entityType>
+<nameEntry><part>CSIRO Division of Textile Physics</part>
+<part localType="parent">Commonwealth Scientific and Industrial Research Organisation</part>
+<authorizedForm>AACR2</authorizedForm>
+</nameEntry>
+</identity>
+<description><existDates>
+<dateRange>
+<fromDate standardDate="1958-01-01">1958</fromDate>
+<toDate standardDate="1988-12-31">1988</toDate>
+</dateRange>
+</existDates>
+<places>
+<place>
+<placeRole>Start Place</placeRole>
+<placeEntry>Ryde, New South Wales, Australia</placeEntry>
+</place>
+<place>
+<placeRole>Location</placeRole>
+<placeEntry>Ryde, New South Wales</placeEntry>
+</place>
+</places>
+<functions>
+<function>
+<term>Industrial or Scientific Research</term>
+</function>
+<function>
+<term>Materials or Textiles Industries</term>
+</function>
+</functions>
+<biogHist>
+<abstract>In 1958 the three laboratories of the CSIRO Wool Textile Research Laboratories became separate Divisions. The Division of Textile Physics was established and carried out research into the physical properties of wool fibres.</abstract>
+
+</biogHist>
+</description>
+<relations><cpfRelation cpfRelationType="hierarchical-parent" xlink:type="simple" xlink:href="http://www.eoas.info/biogs/A000196b.htm">
+<relationEntry localType="Corporate Body">
+Commonwealth Scientific and Industrial Research Organisation (CSIRO), Commonwealth of Australia (1949 - )
+</relationEntry>
+</cpfRelation>
+<cpfRelation cpfRelationType="temporal-earlier" xlink:type="simple" xlink:href="http://www.eoas.info/biogs/A000695b.htm">
+<relationEntry localType="Corporate Body">
+CSIRO Physics and Engineering Unit, Commonwealth Scientific and Industrial Research Organisation (1949 - 1958)
+</relationEntry>
+</cpfRelation>
+<cpfRelation cpfRelationType="associative" xlink:type="simple" xlink:href="http://www.eoas.info/biogs/P005151b.htm">
+<relationEntry localType="Person">
+Whiteley, Kenneth James (1934 - )
+</relationEntry>
+</cpfRelation>
+<cpfRelation cpfRelationType="associative" xlink:type="simple" xlink:href="http://www.eoas.info/biogs/P001637b.htm">
+<relationEntry localType="Person">
+Downes, John Godkin (1917 - 1984)
+</relationEntry>
+<dateRange>
+<fromDate standardDate="1951-01-01">1951</fromDate>
+<toDate standardDate="1975-12-31">1975</toDate>
+</dateRange>
+<descriptiveNote>
+<p>Research Scientist in the Division of Textile Physics at CSIRO (1951 - 1968)
+Chief Scientist at the CSIRO Division of Textile Physics (1969 - 1975)</p>
+</descriptiveNote>
+</cpfRelation>
+<cpfRelation cpfRelationType="associative" xlink:type="simple" xlink:href="http://www.eoas.info/biogs/P000618b.htm">
+<relationEntry localType="Person">
+Makinson, Kathleen Rachel (1917 - )
+</relationEntry>
+<dateRange>
+<fromDate standardDate="1957-01-01">1957</fromDate>
+<toDate standardDate="1982-12-31">1982</toDate>
+</dateRange>
+<descriptiveNote>
+<p>CSIRO Division of Textile Physics (1957 - 1961)
+CSIRO Division of Textile Physics (1964 - 1982)
+Senior Principal Research Scientist at the CSIRO Division of Textile Physics (1971 - 1977)
+Chief Research Scientist at the CSIRO Division of Textile Physics (1977 - 1982)
+Assistant Chief of the Division of Textile Physics at CSIRO (1979 - 1982)</p>
+</descriptiveNote>
+</cpfRelation>
+<cpfRelation cpfRelationType="associative" xlink:type="simple" xlink:href="http://www.eoas.info/biogs/P003403b.htm">
+<relationEntry localType="Person">
+Burgmann, Victor Dudley (1916 - 1991)
+</relationEntry>
+<dateRange>
+<fromDate standardDate="1958-01-01">1958</fromDate>
+<toDate standardDate="1969-12-31">1969</toDate>
+</dateRange>
+<descriptiveNote>
+<p>Chief of the Division of Textile Physics, Wool Research Laboratories, CSIRO</p>
+</descriptiveNote>
+</cpfRelation>
+<cpfRelation cpfRelationType="associative" xlink:type="simple" xlink:href="http://www.eoas.info/biogs/P001793b.htm">
+<relationEntry localType="Person">
+Richardson, Alan McDonald (1913 - 1985)
+</relationEntry>
+<dateRange>
+<fromDate standardDate="1963-01-01">1963</fromDate>
+<toDate standardDate="1973-12-31">1973</toDate>
+</dateRange>
+<descriptiveNote>
+<p>Worked in Division of Textile Physics, CSIRO</p>
+</descriptiveNote>
+</cpfRelation>
+<cpfRelation cpfRelationType="hierarchical-child" xlink:type="simple" xlink:href="http://www.eoas.info/biogs/A000416b.htm">
+<relationEntry localType="Corporate Body">
+Australian Objective Measurement Project (AOMP) - CSIRO, Commonwealth Scientific and Industrial Research Organisation (1970 - 1971)
+</relationEntry>
+</cpfRelation>
+<cpfRelation cpfRelationType="temporal-later" xlink:type="simple" xlink:href="http://www.eoas.info/biogs/A000784b.htm">
+<relationEntry localType="Corporate Body">
+CSIRO Physical Technology Unit, Commonwealth Scientific and Industrial Research Organisation (c. 1980 - c. 1988)
+</relationEntry>
+</cpfRelation>
+<cpfRelation cpfRelationType="temporal-later" xlink:type="simple" xlink:href="http://www.eoas.info/biogs/A000613b.htm">
+<relationEntry localType="Corporate Body">
+CSIRO Division of Wool Technology, Commonwealth Scientific and Industrial Research Organisation (1988 - 1999)
+</relationEntry>
+</cpfRelation>
+<cpfRelation cpfRelationType="hierarchical-parent" xlink:type="simple" xlink:href="http://www.eoas.info/biogs/A000614b.htm">
+<relationEntry localType="Corporate Body">
+Institute of Industrial Technology - CSIRO, Commonwealth Scientific and Industrial Research Organisation (c. 1978 - c. 1986)
+</relationEntry>
+</cpfRelation>
+<cpfRelation cpfRelationType="identity" xlink:type="simple" xlink:href="http://nla.gov.au/nla.party-616263">
+<relationEntry></relationEntry>
+<descriptiveNote><p>Trove</p>
+</descriptiveNote>
+</cpfRelation>
+<resourceRelation resourceRelationType="subjectOf">
+<relationEntry localType="published">'CSIRO Division of Textile Physics', in <span style="font-style:italic">Encyclopedia of Australian Science</span>, The University of Melbourne eScholarship Research Centre</relationEntry>
+
+<objectXMLWrap>
+<bibref xmlns="urn:isbn:1-931666-22-9">
+<title render="italic">CSIRO Division of Textile Physics</title>
+<imprint>
+<publisher>The University of Melbourne eScholarship Research Centre</publisher>
+</imprint>
+<bibseries>
+<title render="italic">Encyclopedia of Australian Science</title>
+</bibseries>
+<extptr linktype="simple" href="http://www.eoas.info/biogs/A000617b.htm"></extptr>
+</bibref>
+</objectXMLWrap>
+</resourceRelation>
+<resourceRelation resourceRelationType="other" xlink:type="simple" xlink:href="http://www.eoas.info/bib/ASBS00939.htm">
+<relationEntry localType="published">Book: Historical Directory of Council for Scientific and Industrial Research and Commonwealth Scientific and Industrial Research Organization, 1926-1976</relationEntry>
+
+<objectXMLWrap>
+<bibref xmlns="urn:isbn:1-931666-22-9">
+<name type="author"></name>
+<title render="italic">Historical Directory of Council for Scientific and Industrial Research and Commonwealth Scientific and Industrial Research Organization, 1926-1976</title>
+<imprint>
+<place>Canberra</place>
+<publisher>CSIRO</publisher>
+<date>1978</date>
+</imprint>
+</bibref>
+</objectXMLWrap>
+
+</resourceRelation>
+<resourceRelation resourceRelationType="other" xlink:type="simple" xlink:href="http://www.eoas.info/bib/ASBS00060.htm">
+<relationEntry localType="published">Resource Section: Primary description of agency CA 4368; CSIRO, Division of Wool Technology, New South Wales. Registration of entity: 23 September 1987</relationEntry>
+
+<objectXMLWrap>
+<bibref xmlns="urn:isbn:1-931666-22-9">
+<name type="author"></name>
+<title render="quoted">Primary description of agency CA 4368; CSIRO, Division of Wool Technology, New South Wales. Registration of entity: 23 September 1987</title>
+<imprint>
+<publisher>National Archives of Australia</publisher>
+<date>2000</date>
+</imprint>
+<bibseries>
+<title render="italic">RecordSearch</title>
+</bibseries>
+<extptr linktype="simple" href="http://naa12.naa.gov.au/scripts/SearchOld.asp?Number=CA+4368"></extptr>
+</bibref>
+</objectXMLWrap>
+
+</resourceRelation>
+<resourceRelation resourceRelationType="other" xlink:type="simple" xlink:href="http://www.eoas.info/bib/ASBS00016.htm">
+<relationEntry localType="published">Resource: Technology in Australia 1788-1988</relationEntry>
+
+<objectXMLWrap>
+<bibref xmlns="urn:isbn:1-931666-22-9">
+<name type="author">Academy of Technological Sciences and Engineering</name>
+<title render="italic">Technology in Australia 1788-1988</title>
+<edition>Online</edition>
+<imprint>
+<place>Melbourne</place>
+<publisher>Australian Science and Technology Heritage Centre</publisher>
+<date>2000</date>
+</imprint>
+<extptr linktype="simple" href="http://www.austehc.unimelb.edu.au/tia/"></extptr>
+</bibref>
+</objectXMLWrap>
+
+</resourceRelation>
+</relations>
+</cpfDescription>
+</eac-cpf>
+	
+
+    </metadata>
+
+  </record>
+
+</GetRecord>
+
+
+
+</OAI-PMH>
+
+
+
+
+
+
+
+
+
+ 
+
+
+

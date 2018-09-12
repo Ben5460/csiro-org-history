@@ -1,0 +1,114 @@
+1. Find all change events, sort by resultingOrganization
+
+SELECT *
+WHERE {
+	?c a org:ChangeEvent . 
+	?c org:originalOrganization ?o1 . 
+	OPTIONAL { ?c org:resultingOrganization ?r1 . }
+	OPTIONAL { ?c prov:endedAtTime ?t . }
+} 
+ORDER BY ?r1
+
+Find transition-event/original+resulting == initiation-event/original+resulting 
+Mark transition-event sameAs initation-event and move into separate graph
+
+2. Find all change events, sort by originalOrganization, to match terminate with initiate events
+
+SELECT *
+WHERE {
+	?c a org:ChangeEvent . 
+	?c org:originalOrganization ?o1 . 
+	OPTIONAL { ?c org:resultingOrganization ?r1 . }
+	OPTIONAL { ?c prov:endedAtTime ?t . }
+} 
+ORDER BY ?o1
+
+3. Find terminate-event/original+date ~= initiate-event/original+date (the dates from EOAS do not always match exactly, so check by reading the description)
+Mark terminate-event sameAs initiate-event, copy labels and dates across to initiate-event, and move terminate-event into separate graph
+
+INSERT { ?cn rdfs:label ?l ; prov:endedAtTime ?t . }
+WHERE {
+	?c a org:ChangeEvent . 
+	?c org:originalOrganization ?o1 . 
+	?c owl:sameAs ?cn .
+	?c rdfs:label ?l . 
+	OPTIONAL { ?c prov:endedAtTime ?t . }
+	NOT EXISTS { ?c org:resultingOrganization ?r1 . }
+} 
+
+
+4. Complete all inverse properties to-and-from change-events
+
+CONSTRUCT { ?o1 org:changedBy ?c . 
+							?r1 org:resultedFrom ?c }
+WHERE {
+	?c a org:ChangeEvent . 
+	OPTIONAL { ?c org:originalOrganization ?o1 . }
+	OPTIONAL { ?c org:resultingOrganization ?r1 . }
+} 
+
+CONSTRUCT { ?c2 org:originalOrganization ?o .
+		?c1 org:resultingOrganization ?o . }
+WHERE {
+	?o a org:Organization . 
+	?o org:resultedFrom ?c1 .
+	OPTIONAL { ?o org:changedBy ?c2 . }
+} 
+--------------
+TODO: tidy up dates on change-events - multiple dates derived from mis-matches on org records. 
+TODO: Find merging or branching events, where one of the participating organizations persists before and after - 
+	- rule: foreach ChangeEvent ?c 
+	1. if originalOrganization/invalidatedAtTime > endedAtTime then add resultingOrganization=originalOrganization
+	2. if resultingOrganization/generatedAtTime < endedAtTime then add originalOrganization=resultingOrganization
+
+Find them like this: 
+
+SELECT *
+WHERE {
+	?c a org:ChangeEvent .
+	?c prov:endedAtTime ?ct . 
+	?c org:originalOrganization ?o .
+	NOT EXISTS { ?c org:resultingOrganization ?o . }
+	?o prov:invalidatedAtTime ?ot . 
+	FILTER ( ?ot > ?ct ) 
+} 
+
+SELECT *
+WHERE {
+	?c a org:ChangeEvent .
+	?c prov:endedAtTime ?ct . 
+	?c org:resultingOrganization  ?r .
+	NOT EXISTS { ?c org:originalOrganization ?r . }
+	?r prov:generatedAtTime ?rt . 
+	FILTER ( ?rt < ?ct ) 
+} 
+
+--------------
+What can we do with this? 
+
+Example SPARQL:
+
+Get all predecessors to named unit:
+
+SELECT ?unit ?end ?start ?predecessor
+WHERE {
+	?init foaf:name "CSIRO Division of Exploration and Mining" .
+	?init (org:resultedFrom/org:originalOrganization)+ ?pred . 
+	?pred foaf:name ?predecessor .
+   	?pred org:changedBy/org:resultingOrganization ?succ .
+	?succ foaf:name ?unit .
+   	OPTIONAL { ?succ prov:generatedAtTime ?start . }
+   	OPTIONAL { ?succ prov:invalidatedAtTime ?end . }
+} ORDER BY DESC(?start)
+
+Get successors to unit whose name contains specified string:
+
+SELECT ?predecessor ?start ?end ?successor
+WHERE {
+	?unit foaf:name ?n .
+	?unit (org:changedBy/org:resultingOrganization)+ ?successor .
+	?successor org:resultedFrom/org:originalOrganization ?predecessor . 
+	OPTIONAL { ?predecessor prov:generatedAtTime ?start . }
+	OPTIONAL { ?predecessor prov:invalidatedAtTime ?end . }
+	FILTER ( CONTAINS( ?n , "Soil Physics Section" ))
+} ORDER BY ASC(?start)

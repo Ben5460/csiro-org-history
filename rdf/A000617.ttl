@@ -1,0 +1,62 @@
+@prefix csiro: <http://network.csiro.au/data/csiro/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+csiro:A000617                                                     # clean identifier possible?
+  rdf:type org:Organization ;                                     # use generic org:Organization all round
+  owl:sameAs <http://www.eoas.info/biogs/A000617b> ;              # this keeps track of the EOAS entry
+  foaf:name "CSIRO Division of Textile Physics"^^xsd:string ;     # identity/nameEntry/part
+  prov:generatedAtTime "1958-01-01"^^xsd:date ;      # description/existDates/dateRange/fromDate/@standardDate
+  prov:invalidatedAtTime "1988-12-31"^^xsd:date ;    # description/existDates/dateRange/toDate/@standardDate
+  org:resultedFrom csiro:A000617-i ;                              # standard link to initiating ChangeEvent
+  org:changedBy csiro:A000617-x ;                                 # standard link to terminating ChangeEvent
+  org:hasPrimarySite csiro:Ryde ;                                 # description/places/place[placeRole="Location"]/placeEntry
+  dc:subject "Industrial or Scientific Research" ;                # description/functions/function/term
+  dc:subject "Materials or Textiles Industries" ;
+  dc:description "In 1958 the three laboratories of the CSIRO Wool Textile Research Laboratories became separate Divisions. The Division of Textile Physics was established and carried out research into the physical properties of wool fibres."^^xsd:string ;      # description/biogHist/abstract
+  org:changedBy csiro:A000617-A000613 ;                           # cpfRelation[@cpfRelationType="temporal-later"] 
+  org:changedBy csiro:A000617-A000784 ;
+  owl:sameAs <http://nla.gov.au/nla.party-616263> ;               # cpfRelation[@cpfRelationType="identity"]
+  org:hasMember <http://www.eoas.info/biogs/P000618b> ;           # cpfRelation[@cpfRelationType="associative"]
+  org:hasMember <http://www.eoas.info/biogs/P001637b> ;
+  org:hasMember <http://www.eoas.info/biogs/P001793b> ;
+  org:hasMember <http://www.eoas.info/biogs/P003403b> ;
+  org:hasMember <http://www.eoas.info/biogs/P005151b> ;
+  org:unitOf csiro:A000196 ;                                      # cpfRelation[@cpfRelationType="hierarchical-parent"]
+  org:unitOf csiro:A000614 ;
+  org:hasUnit csiro:A000416 ;                                     # cpfRelation[@cpfRelationType="hierarchical-child"]
+.
+csiro:A000617-i                                                   # ChangeEvent for initiation of this org
+  rdf:type org:ChangeEvent ;
+  rdfs:comment "CSIRO Division of Textile Physics - initiated"^^xsd:string ;
+  org:originalOrganization csiro:A000695 ;                        # cpfRelation[@cpfRelationType="temporal-earlier"]
+  org:resultingOrganization csiro:A000617 ;                       # this one
+  prov:endedAtTime "1958-01-01"^^xsd:date ;          # description/existDates/dateRange/fromDate/@standardDate
+.
+csiro:A000617-x                                                  # ChangeEvent for termination of this org
+  rdf:type org:ChangeEvent ;
+  rdfs:comment "CSIRO Division of Textile Physics - terminated"^^xsd:string ;
+  org:originalOrganization csiro:A000617 ;                       # this one
+  prov:endedAtTime "1988-12-31"^^xsd:date ;         # description/existDates/dateRange/toDate/@standardDate
+.
+csiro:A000617-A000613                                                # ChangeEvent for transition to later org
+  rdf:type org:ChangeEvent ;
+  org:originalOrganization csiro:A000617 ;                       # this one
+  org:resultingOrganization csiro:A000613 ;                      # cpfRelation[@cpfRelationType="temporal-later"]
+.
+csiro:A000617-A000784                                                # ChangeEvent for transition to later org
+  rdf:type org:ChangeEvent ;
+  org:originalOrganization csiro:A000617 ;                       # this one
+  org:resultingOrganization csiro:A000784 ;                      # cpfRelation[@cpfRelationType="temporal-later"]
+.
+csiro:Ryde
+  rdf:type org:Site ;
+  org:siteAddress [
+      rdf:type locn:Address ;
+      locn:fullAddress "Ryde, New South Wales, Australia"^^xsd:string ;
+    ] ;
+.

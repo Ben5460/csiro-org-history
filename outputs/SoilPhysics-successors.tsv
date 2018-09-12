@@ -1,0 +1,10 @@
+unit	start	end	successor
+CSIR Soil Physics Section	1933-01-01	1943-12-31	CSIRO Soil Physics and Mechanics Section
+CSIRO Soil Physics and Mechanics Section	1943-01-01	1955-12-31	CSIRO Soil Mechanics Section
+CSIRO Soil Mechanics Section	1955-01-01	1967-12-31	CSIRO Division of Soil Mechanics
+CSIRO Division of Soil Mechanics	1967-01-01	1970-12-31	CSIRO Division of Applied Geomechanics
+CSIRO Division of Applied Geomechanics	1970-01-01	1983-12-31	CSIRO Division of Geomechanics
+CSIRO Division of Geomechanics	1983-07-01	1993-06-30	CSIRO Division of Exploration and Mining
+CSIRO Division of Geomechanics	1983-07-01	1993-06-30	CSIRO Petroleum Resources
+CSIRO Division of Exploration and Geoscience	1988-01-01	1993-12-31	CSIRO Division of Exploration and Mining
+CSIRO Division of Exploration and Geoscience	1988-01-01	1993-12-31	CSIRO Petroleum Resources

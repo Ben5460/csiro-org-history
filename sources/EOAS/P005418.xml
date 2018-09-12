@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/
+ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+
+<responseDate>2016-08-29T03:14:40Z</responseDate>
+
+<request verb="GetRecord" identifier="oai:eoas.oai.esrc.unimelb.edu.au:P005418" metadataPrefix="eac-cpf">http://oai.esrc.unimelb.edu.au/EOAS/provider</request>
+
+
+
+<GetRecord>
+
+  <record>
+
+  
+
+    <header>
+
+      <identifier>oai:eoas.oai.esrc.unimelb.edu.au:P005418</identifier>
+
+      <datestamp>2015-09-17T02:31:09Z</datestamp>
+
+      	
+
+    </header>
+
+	
+
+    <metadata>
+
+	<?oxygen RNGSchema="shared/cpf.rng" type="xml"?>
+<eac-cpf xmlns="urn:isbn:1-931666-33-4" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:isbn:1-931666-33-4 http://eac.staatsbibliothek-berlin.de/schema/cpf.xsd">
+<control>
+<recordId>P005418</recordId>
+<maintenanceStatus>revised</maintenanceStatus>
+<maintenanceAgency>
+<agencyCode>AU-VU:EOAS</agencyCode>
+<agencyName>Encyclopedia of Australian Science</agencyName>
+<descriptiveNote>
+<p>Encyclopedia of Australian Science is a biographical, bibliographical and archival database of Australian scientists and scientific organisations with links to related articles and images. It includes scientists who were Australian by birth as well as those who undertook significant scientific work here.</p>
+</descriptiveNote>
+</maintenanceAgency>
+<languageDeclaration>
+<language languageCode="eng">English</language>
+<script scriptCode="Latn">Latin</script>
+</languageDeclaration>
+<conventionDeclaration>
+<abbreviation>AACR2</abbreviation>
+<citation>Anglo-American Cataloguing Rules</citation>
+</conventionDeclaration>
+<localControl localType="typeOfEntity">
+<term>Corporate Body</term>
+</localControl>
+<maintenanceHistory>
+<maintenanceEvent>
+<eventType>created</eventType>
+<eventDateTime standardDateTime="2014-01-13">2014-01-13</eventDateTime>
+<agentType>human</agentType>
+<agent>Christine Moje</agent>
+<eventDescription></eventDescription>
+</maintenanceEvent>
+<maintenanceEvent>
+<eventType>updated</eventType>
+<eventDateTime standardDateTime="2014-04-28">2014-04-28</eventDateTime>
+<agentType>human</agentType>
+<agent></agent>
+<eventDescription></eventDescription>
+</maintenanceEvent>
+</maintenanceHistory>
+</control>
+<cpfDescription>
+<identity><entityId>http://www.eoas.info/biogs/P005418b.htm</entityId>
+<entityType>corporateBody</entityType>
+<nameEntry><part>ENSIS</part>
+<authorizedForm>AACR2</authorizedForm>
+</nameEntry>
+</identity>
+<description><existDates>
+<dateRange>
+<fromDate standardDate="2004-07-01">July 2004</fromDate>
+<toDate standardDate="2007-12-31">2007</toDate>
+</dateRange>
+</existDates>
+<places>
+</places>
+<functions>
+<function>
+<term>Forest or Timber Industries</term>
+</function>
+<function>
+<term>Advisory or Regulatory Body</term>
+</function>
+<function>
+<term>Forest Science</term>
+</function>
+</functions>
+<biogHist>
+<abstract>ENSIS was a joint venture between Scion (formerly Forest Research, New Zealand) and the CSIRO Division of Forestry and Forest Products (mark II). Its purpose was to provide leading forest and forest industries research, integrating research and development across the entire forestry products cycle.</abstract>
+
+</biogHist>
+</description>
+<relations><cpfRelation cpfRelationType="hierarchical-parent" xlink:type="simple" xlink:href="http://www.eoas.info/biogs/A000196b.htm">
+<relationEntry localType="Corporate Body">
+Commonwealth Scientific and Industrial Research Organisation (CSIRO), Commonwealth of Australia (1949 - )
+</relationEntry>
+</cpfRelation>
+<cpfRelation cpfRelationType="temporal-earlier" xlink:type="simple" xlink:href="http://www.eoas.info/biogs/A001686b.htm">
+<relationEntry localType="Corporate Body">
+CSIRO Division of Forestry and Forest Products (mark II), Commonwealth Scientific and Industrial Research Organisation (1995 - 2007)
+</relationEntry>
+</cpfRelation>
+<cpfRelation cpfRelationType="temporal-later" xlink:type="simple" xlink:href="http://www.eoas.info/biogs/P005404b.htm">
+<relationEntry localType="Corporate Body">
+CSIRO Division of Forestry Biosciences (2007 - 2008)
+</relationEntry>
+</cpfRelation>
+<resourceRelation resourceRelationType="subjectOf">
+<relationEntry localType="published">'ENSIS', in <span style="font-style:italic">Encyclopedia of Australian Science</span>, The University of Melbourne eScholarship Research Centre</relationEntry>
+
+<objectXMLWrap>
+<bibref xmlns="urn:isbn:1-931666-22-9">
+<title render="italic">ENSIS</title>
+<imprint>
+<publisher>The University of Melbourne eScholarship Research Centre</publisher>
+</imprint>
+<bibseries>
+<title render="italic">Encyclopedia of Australian Science</title>
+</bibseries>
+<extptr linktype="simple" href="http://www.eoas.info/biogs/P005418b.htm"></extptr>
+</bibref>
+</objectXMLWrap>
+</resourceRelation>
+<resourceRelation resourceRelationType="other" xlink:type="simple" xlink:href="http://www.eoas.info/bib/ASBS03551.htm">
+<relationEntry localType="published">Site Exhibition: The Study of Australian Eucalypts</relationEntry>
+
+<objectXMLWrap>
+<bibref xmlns="urn:isbn:1-931666-22-9">
+<name type="author">McCarthy, Gavan; Smith, Ailie; Moje, Christine; Rigby, Rebecca</name>
+<title render="italic">The Study of Australian Eucalypts</title>
+<imprint>
+<publisher>eScholarship Research Centre</publisher>
+<date>2013</date>
+</imprint>
+<extptr linktype="simple" href="http://www.eoas.info/eucalypts/index.html"></extptr>
+</bibref>
+</objectXMLWrap>
+
+</resourceRelation>
+</relations>
+</cpfDescription>
+</eac-cpf>
+	
+
+    </metadata>
+
+  </record>
+
+</GetRecord>
+
+
+
+</OAI-PMH>
+
+
+
+
+
+
+
+
+
+ 
+
+
+

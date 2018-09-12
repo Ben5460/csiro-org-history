@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/
+ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+
+<responseDate>2016-08-29T03:13:17Z</responseDate>
+
+<request verb="GetRecord" identifier="oai:eoas.oai.esrc.unimelb.edu.au:P005187" metadataPrefix="eac-cpf">http://oai.esrc.unimelb.edu.au/EOAS/provider</request>
+
+
+
+<GetRecord>
+
+  <record>
+
+  
+
+    <header>
+
+      <identifier>oai:eoas.oai.esrc.unimelb.edu.au:P005187</identifier>
+
+      <datestamp>2015-09-17T02:30:10Z</datestamp>
+
+      	
+
+    </header>
+
+	
+
+    <metadata>
+
+	<?oxygen RNGSchema="shared/cpf.rng" type="xml"?>
+<eac-cpf xmlns="urn:isbn:1-931666-33-4" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:isbn:1-931666-33-4 http://eac.staatsbibliothek-berlin.de/schema/cpf.xsd">
+<control>
+<recordId>P005187</recordId>
+<maintenanceStatus>revised</maintenanceStatus>
+<maintenanceAgency>
+<agencyCode>AU-VU:EOAS</agencyCode>
+<agencyName>Encyclopedia of Australian Science</agencyName>
+<descriptiveNote>
+<p>Encyclopedia of Australian Science is a biographical, bibliographical and archival database of Australian scientists and scientific organisations with links to related articles and images. It includes scientists who were Australian by birth as well as those who undertook significant scientific work here.</p>
+</descriptiveNote>
+</maintenanceAgency>
+<languageDeclaration>
+<language languageCode="eng">English</language>
+<script scriptCode="Latn">Latin</script>
+</languageDeclaration>
+<conventionDeclaration>
+<abbreviation>AACR2</abbreviation>
+<citation>Anglo-American Cataloguing Rules</citation>
+</conventionDeclaration>
+<localControl localType="typeOfEntity">
+<term>Corporate Body</term>
+</localControl>
+<maintenanceHistory>
+<maintenanceEvent>
+<eventType>created</eventType>
+<eventDateTime standardDateTime="2012-07-03">2012-07-03</eventDateTime>
+<agentType>human</agentType>
+<agent>Christine Moje</agent>
+<eventDescription></eventDescription>
+</maintenanceEvent>
+<maintenanceEvent>
+<eventType>updated</eventType>
+<eventDateTime standardDateTime="2014-04-28">2014-04-28</eventDateTime>
+<agentType>human</agentType>
+<agent></agent>
+<eventDescription></eventDescription>
+</maintenanceEvent>
+</maintenanceHistory>
+</control>
+<cpfDescription>
+<identity><entityId>http://www.eoas.info/biogs/P005187b.htm</entityId>
+<entityType>corporateBody</entityType>
+<nameEntry><part>CSIRO Ecosystem Sciences</part>
+<part localType="parent">Commonwealth Scientific and Industrial Research Organisation (CSIRO)</part>
+<authorizedForm>AACR2</authorizedForm>
+</nameEntry>
+</identity>
+<description><existDates>
+<dateRange>
+<fromDate standardDate="2011-01-01">2011</fromDate>
+</dateRange>
+</existDates>
+<places>
+</places>
+<biogHist>
+<abstract>The CSIRO Ecosystem Sciences Research Division focuses on the sustainability of Australia's agriculture and forestry, built environments, biodiversity, communities and industries.</abstract>
+
+</biogHist>
+</description>
+<relations><cpfRelation cpfRelationType="hierarchical-parent" xlink:type="simple" xlink:href="http://www.eoas.info/biogs/A000196b.htm">
+<relationEntry localType="Corporate Body">
+Commonwealth Scientific and Industrial Research Organisation (CSIRO), Commonwealth of Australia (1949 - )
+</relationEntry>
+</cpfRelation>
+<cpfRelation cpfRelationType="associative" xlink:type="simple" xlink:href="http://www.eoas.info/biogs/P005186b.htm">
+<relationEntry localType="dataset">
+Atlas of Living Australia (ALA) (2010 - )
+</relationEntry>
+</cpfRelation>
+<resourceRelation resourceRelationType="subjectOf">
+<relationEntry localType="published">'CSIRO Ecosystem Sciences', in <span style="font-style:italic">Encyclopedia of Australian Science</span>, The University of Melbourne eScholarship Research Centre</relationEntry>
+
+<objectXMLWrap>
+<bibref xmlns="urn:isbn:1-931666-22-9">
+<title render="italic">CSIRO Ecosystem Sciences</title>
+<imprint>
+<publisher>The University of Melbourne eScholarship Research Centre</publisher>
+</imprint>
+<bibseries>
+<title render="italic">Encyclopedia of Australian Science</title>
+</bibseries>
+<extptr linktype="simple" href="http://www.eoas.info/biogs/P005187b.htm"></extptr>
+</bibref>
+</objectXMLWrap>
+</resourceRelation>
+<resourceRelation resourceRelationType="other" xlink:type="simple" xlink:href="http://www.eoas.info/bib/ASBS03551.htm">
+<relationEntry localType="published">Site Exhibition: The Study of Australian Eucalypts</relationEntry>
+
+<objectXMLWrap>
+<bibref xmlns="urn:isbn:1-931666-22-9">
+<name type="author">McCarthy, Gavan; Smith, Ailie; Moje, Christine; Rigby, Rebecca</name>
+<title render="italic">The Study of Australian Eucalypts</title>
+<imprint>
+<publisher>eScholarship Research Centre</publisher>
+<date>2013</date>
+</imprint>
+<extptr linktype="simple" href="http://www.eoas.info/eucalypts/index.html"></extptr>
+</bibref>
+</objectXMLWrap>
+
+</resourceRelation>
+</relations>
+</cpfDescription>
+</eac-cpf>
+	
+
+    </metadata>
+
+  </record>
+
+</GetRecord>
+
+
+
+</OAI-PMH>
+
+
+
+
+
+
+
+
+
+ 
+
+
+
